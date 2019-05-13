@@ -8,4 +8,9 @@ public class Triangle {
         b = bb;
         c = cc;
     }
+
+    double trianglePerimeter(){
+        return (a + b + c);
+
+    }
 }

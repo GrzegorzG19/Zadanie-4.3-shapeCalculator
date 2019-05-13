@@ -5,5 +5,8 @@ public class Square {
 
         a = aa;
     }
+    double squareArea(){
 
+        return (a * a);
+    }
 }

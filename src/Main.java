@@ -7,11 +7,19 @@ public class Main {
 
         ShapeCalculator calculator = new ShapeCalculator();
 
-        calculator.squareArea(square);
-        calculator.rectPerimeter(rectangle);
-        calculator.trianglePerimeter(triangle);
-        calculator.circleArea(circle);
+      //  calculator.squareArea(square);
+     //   calculator.rectPerimeter(rectangle);
+     //   calculator.trianglePerimeter(triangle);
+      //  calculator.circleArea(circle);
 
-        
+        double squaArea = square.squareArea();
+        double rectArea = rectangle.rectPerimeter();
+        double circArea = circle.circleArea();
+        double trianArea = triangle.trianglePerimeter();
+
+        System.out.println(squaArea);
+        System.out.println(rectArea);
+        System.out.println(circArea);
+        System.out.println(trianArea);
     }
 }

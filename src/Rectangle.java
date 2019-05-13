@@ -6,5 +6,8 @@ public class Rectangle {
         a = aa;
         b = bb;
     }
+    double rectPerimeter(){
 
+        return (a * b);
+    }
 }
