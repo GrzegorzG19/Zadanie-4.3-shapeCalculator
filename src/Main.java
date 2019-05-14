@@ -7,10 +7,10 @@ public class Main {
 
         ShapeCalculator calculator = new ShapeCalculator();
 
-        // System.out.println(calculator.squareArea(square));
-        // System.out.println(calculator.rectPerimeter(rectangle));
-        // System.out.println(calculator.trianglePerimeter(triangle));
-        // System.out.println(calculator.circleArea(circle));
+         System.out.println(calculator.squareArea(square));
+         System.out.println(calculator.rectPerimeter(rectangle));
+         System.out.println(calculator.trianglePerimeter(triangle));
+         System.out.println(calculator.circleArea(circle));
 
 
         double squaArea = square.squareArea();
